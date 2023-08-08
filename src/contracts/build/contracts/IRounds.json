@@ -1,0 +1,3221 @@
+{
+  "contractName": "IRounds",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "roundNumber",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "roundPot",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateRoundPot",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "roundNumber",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "roundSidePot",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateRoundSidePot",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "roundNumber",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalPlayers",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateTotalPlayers",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "roundNumber",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalKeys",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateTotalKeys",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "roundNumber",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalNextRoundPot",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateNextRoundPot",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "roundNumber",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalDividendPot",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateTotalDividendsPot",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "roundNumber",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "totalEarned",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateTotalEarned",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"roundNumber\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalNextRoundPot\",\"type\":\"uint256\"}],\"name\":\"updateNextRoundPot\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"roundNumber\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"roundPot\",\"type\":\"uint256\"}],\"name\":\"updateRoundPot\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"roundNumber\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"roundSidePot\",\"type\":\"uint256\"}],\"name\":\"updateRoundSidePot\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"roundNumber\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalDividendPot\",\"type\":\"uint256\"}],\"name\":\"updateTotalDividendsPot\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"roundNumber\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalEarned\",\"type\":\"uint256\"}],\"name\":\"updateTotalEarned\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"roundNumber\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalKeys\",\"type\":\"uint256\"}],\"name\":\"updateTotalKeys\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"roundNumber\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"totalPlayers\",\"type\":\"uint256\"}],\"name\":\"updateTotalPlayers\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Rounds.sol\":\"IRounds\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Rounds.sol\":{\"keccak256\":\"0x8cb8888fa7b2c8988e341a02dd5f710ec1430d411e10f4830de25e8344f8a3fa\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://939407a276670505249bb5b689c783c1f08cf960a7cf465a822a0c35eccc6b46\",\"dweb:/ipfs/QmbehYa6EUAwT8UVMXyqGFsXHwn2bqZjrtNW7KFUe7tgLF\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\ninterface IRounds {\n     struct Round {\n        uint256 totalPot; // Total amount in the main pot for this round\n        uint256 totalSidePot; // Total amount in the side pot for this round\n        uint256 totalPlayers; // Total number of players in this round\n        uint256 totalKeys; // Total number of keys bought in this round\n        uint256 totalNextRoundPot; // Total amount reserved for the next round's pot\n        uint256 totalDividendPot; // Total amount in the dividend pot for this round\n        uint256 totalEarned; // Total amount earned (e.g., by the contract or players) in this round\n    }\n    function updateRoundPot(uint256 roundNumber, uint256 roundPot) external;\n    function updateRoundSidePot(uint256 roundNumber, uint256 roundSidePot) external;\n    function updateTotalPlayers(uint256 roundNumber, uint256 totalPlayers) external;\n    function updateTotalKeys(uint256 roundNumber, uint256 totalKeys) external;\n    function updateNextRoundPot(uint256 roundNumber, uint256 totalNextRoundPot) external;\n    function updateTotalDividendsPot(uint256 roundNumber, uint256 totalDividendPot) external;\n    function updateTotalEarned(uint256 roundNumber, uint256 totalEarned) external;\n}\ncontract Rounds {\n    struct Round {\n        uint256 totalPot; // Total amount in the main pot for this round\n        uint256 totalSidePot; // Total amount in the side pot for this round\n        uint256 totalPlayers; // Total number of players in this round\n        uint256 totalKeys; // Total number of keys bought in this round\n        uint256 totalNextRoundPot; // Total amount reserved for the next round's pot\n        uint256 totalDividendPot; // Total amount in the dividend pot for this round\n        uint256 totalEarned; // Total amount earned (e.g., by the contract or players) in this round\n    }\n    address allowedContractAddress;\n    address owner;\n\n    mapping (uint256=> Round) public rounds;\n\n    constructor(address _allowedContractAddress, address _owner){\n        allowedContractAddress = _allowedContractAddress;\n        owner = _owner;\n    }\n\n     modifier onlyAllowedContract() {\n    require(msg.sender == allowedContractAddress || msg.sender == owner, \"Caller is not the allowed contract\");\n    _;\n    }\n    function getRound(uint256 roundNumber) public view onlyAllowedContract returns(Round memory){\n        Round memory round = rounds[roundNumber];\n        return round;\n    }\n\n    function updateRoundPot(uint256 roundNumber, uint256 roundPot) onlyAllowedContract public {\n        rounds[roundNumber].totalPot += roundPot;\n    }\n    function updateRoundSidePot(uint256 roundNumber, uint256 roundSidePot) onlyAllowedContract public {\n        rounds[roundNumber].totalSidePot += roundSidePot;\n    }\n    function updateTotalPlayers(uint256 roundNumber, uint256 player) onlyAllowedContract public {\n        rounds[roundNumber].totalPlayers += player;\n    }\n    function updateTotalKeys(uint256 roundNumber, uint256 playerKeys) onlyAllowedContract public {\n        rounds[roundNumber].totalKeys += playerKeys;\n    }\n    function updateNextRoundPot(uint256 roundNumber, uint256 nextRoundPot) onlyAllowedContract public {\n        rounds[roundNumber].totalNextRoundPot += nextRoundPot;\n    }\n    function updateTotalDividendPot(uint256 roundNumber, uint256 diviePot) onlyAllowedContract public {\n        rounds[roundNumber].totalDividendPot += diviePot;\n    }\n    function updateTotalEarned(uint256 roundNumber, uint256 totalDivsEarned) onlyAllowedContract public {\n        rounds[roundNumber].totalEarned += totalDivsEarned;\n    } \n}\n",
+  "sourcePath": "/home/jeremy/Desktop/blockchain-projects/fomo3dphoenix/contracts/Rounds.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Rounds.sol",
+    "exportedSymbols": {
+      "IRounds": [
+        1765
+      ],
+      "Rounds": [
+        1962
+      ]
+    },
+    "id": 1963,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1700,
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:2"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "IRounds",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 1765,
+        "linearizedBaseContracts": [
+          1765
+        ],
+        "name": "IRounds",
+        "nameLocation": "66:7:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "IRounds.Round",
+            "id": 1715,
+            "members": [
+              {
+                "constant": false,
+                "id": 1702,
+                "mutability": "mutable",
+                "name": "totalPot",
+                "nameLocation": "112:8:2",
+                "nodeType": "VariableDeclaration",
+                "scope": 1715,
+                "src": "104:16:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1701,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "104:7:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1704,
+                "mutability": "mutable",
+                "name": "totalSidePot",
+                "nameLocation": "185:12:2",
+                "nodeType": "VariableDeclaration",
+                "scope": 1715,
+                "src": "177:20:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1703,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "177:7:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1706,
+                "mutability": "mutable",
+                "name": "totalPlayers",
+                "nameLocation": "262:12:2",
+                "nodeType": "VariableDeclaration",
+                "scope": 1715,
+                "src": "254:20:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1705,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "254:7:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1708,
+                "mutability": "mutable",
+                "name": "totalKeys",
+                "nameLocation": "333:9:2",
+                "nodeType": "VariableDeclaration",
+                "scope": 1715,
+                "src": "325:17:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1707,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "325:7:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1710,
+                "mutability": "mutable",
+                "name": "totalNextRoundPot",
+                "nameLocation": "405:17:2",
+                "nodeType": "VariableDeclaration",
+                "scope": 1715,
+                "src": "397:25:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1709,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "397:7:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1712,
+                "mutability": "mutable",
+                "name": "totalDividendPot",
+                "nameLocation": "490:16:2",
+                "nodeType": "VariableDeclaration",
+                "scope": 1715,
+                "src": "482:24:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1711,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "482:7:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1714,
+                "mutability": "mutable",
+                "name": "totalEarned",
+                "nameLocation": "575:11:2",
+                "nodeType": "VariableDeclaration",
+                "scope": 1715,
+                "src": "567:19:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1713,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "567:7:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "Round",
+            "nameLocation": "88:5:2",
+            "nodeType": "StructDefinition",
+            "scope": 1765,
+            "src": "81:584:2",
+            "visibility": "public"
+          },
+          {
+            "functionSelector": "a4ce300d",
+            "id": 1722,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "updateRoundPot",
+            "nameLocation": "679:14:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1720,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1717,
+                  "mutability": "mutable",
+                  "name": "roundNumber",
+                  "nameLocation": "702:11:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1722,
+                  "src": "694:19:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1716,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "694:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1719,
+                  "mutability": "mutable",
+                  "name": "roundPot",
+                  "nameLocation": "723:8:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1722,
+                  "src": "715:16:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1718,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "715:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "693:39:2"
+            },
+            "returnParameters": {
+              "id": 1721,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "741:0:2"
+            },
+            "scope": 1765,
+            "src": "670:72:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "46131709",
+            "id": 1729,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "updateRoundSidePot",
+            "nameLocation": "756:18:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1727,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1724,
+                  "mutability": "mutable",
+                  "name": "roundNumber",
+                  "nameLocation": "783:11:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1729,
+                  "src": "775:19:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1723,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "775:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1726,
+                  "mutability": "mutable",
+                  "name": "roundSidePot",
+                  "nameLocation": "804:12:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1729,
+                  "src": "796:20:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1725,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "796:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "774:43:2"
+            },
+            "returnParameters": {
+              "id": 1728,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "826:0:2"
+            },
+            "scope": 1765,
+            "src": "747:80:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "0aeecea2",
+            "id": 1736,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "updateTotalPlayers",
+            "nameLocation": "841:18:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1734,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1731,
+                  "mutability": "mutable",
+                  "name": "roundNumber",
+                  "nameLocation": "868:11:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1736,
+                  "src": "860:19:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1730,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "860:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1733,
+                  "mutability": "mutable",
+                  "name": "totalPlayers",
+                  "nameLocation": "889:12:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1736,
+                  "src": "881:20:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1732,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "881:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "859:43:2"
+            },
+            "returnParameters": {
+              "id": 1735,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "911:0:2"
+            },
+            "scope": 1765,
+            "src": "832:80:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "42587134",
+            "id": 1743,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "updateTotalKeys",
+            "nameLocation": "926:15:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1741,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1738,
+                  "mutability": "mutable",
+                  "name": "roundNumber",
+                  "nameLocation": "950:11:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1743,
+                  "src": "942:19:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1737,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "942:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1740,
+                  "mutability": "mutable",
+                  "name": "totalKeys",
+                  "nameLocation": "971:9:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1743,
+                  "src": "963:17:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1739,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "963:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "941:40:2"
+            },
+            "returnParameters": {
+              "id": 1742,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "990:0:2"
+            },
+            "scope": 1765,
+            "src": "917:74:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "8dc6256c",
+            "id": 1750,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "updateNextRoundPot",
+            "nameLocation": "1005:18:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1748,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1745,
+                  "mutability": "mutable",
+                  "name": "roundNumber",
+                  "nameLocation": "1032:11:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1750,
+                  "src": "1024:19:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1744,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1024:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1747,
+                  "mutability": "mutable",
+                  "name": "totalNextRoundPot",
+                  "nameLocation": "1053:17:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1750,
+                  "src": "1045:25:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1746,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1045:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1023:48:2"
+            },
+            "returnParameters": {
+              "id": 1749,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1080:0:2"
+            },
+            "scope": 1765,
+            "src": "996:85:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "d876cf46",
+            "id": 1757,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "updateTotalDividendsPot",
+            "nameLocation": "1095:23:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1755,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1752,
+                  "mutability": "mutable",
+                  "name": "roundNumber",
+                  "nameLocation": "1127:11:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1757,
+                  "src": "1119:19:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1751,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1119:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1754,
+                  "mutability": "mutable",
+                  "name": "totalDividendPot",
+                  "nameLocation": "1148:16:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1757,
+                  "src": "1140:24:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1753,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1140:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1118:47:2"
+            },
+            "returnParameters": {
+              "id": 1756,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1174:0:2"
+            },
+            "scope": 1765,
+            "src": "1086:89:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "6af82dee",
+            "id": 1764,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "updateTotalEarned",
+            "nameLocation": "1189:17:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1762,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1759,
+                  "mutability": "mutable",
+                  "name": "roundNumber",
+                  "nameLocation": "1215:11:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1764,
+                  "src": "1207:19:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1758,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1207:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1761,
+                  "mutability": "mutable",
+                  "name": "totalEarned",
+                  "nameLocation": "1236:11:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1764,
+                  "src": "1228:19:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1760,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1228:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1206:42:2"
+            },
+            "returnParameters": {
+              "id": 1763,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "1257:0:2"
+            },
+            "scope": 1765,
+            "src": "1180:78:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 1963,
+        "src": "56:1204:2",
+        "usedErrors": []
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Rounds",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 1962,
+        "linearizedBaseContracts": [
+          1962
+        ],
+        "name": "Rounds",
+        "nameLocation": "1270:6:2",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "Rounds.Round",
+            "id": 1780,
+            "members": [
+              {
+                "constant": false,
+                "id": 1767,
+                "mutability": "mutable",
+                "name": "totalPot",
+                "nameLocation": "1314:8:2",
+                "nodeType": "VariableDeclaration",
+                "scope": 1780,
+                "src": "1306:16:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1766,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1306:7:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1769,
+                "mutability": "mutable",
+                "name": "totalSidePot",
+                "nameLocation": "1387:12:2",
+                "nodeType": "VariableDeclaration",
+                "scope": 1780,
+                "src": "1379:20:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1768,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1379:7:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1771,
+                "mutability": "mutable",
+                "name": "totalPlayers",
+                "nameLocation": "1464:12:2",
+                "nodeType": "VariableDeclaration",
+                "scope": 1780,
+                "src": "1456:20:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1770,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1456:7:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1773,
+                "mutability": "mutable",
+                "name": "totalKeys",
+                "nameLocation": "1535:9:2",
+                "nodeType": "VariableDeclaration",
+                "scope": 1780,
+                "src": "1527:17:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1772,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1527:7:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1775,
+                "mutability": "mutable",
+                "name": "totalNextRoundPot",
+                "nameLocation": "1607:17:2",
+                "nodeType": "VariableDeclaration",
+                "scope": 1780,
+                "src": "1599:25:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1774,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1599:7:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1777,
+                "mutability": "mutable",
+                "name": "totalDividendPot",
+                "nameLocation": "1692:16:2",
+                "nodeType": "VariableDeclaration",
+                "scope": 1780,
+                "src": "1684:24:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1776,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1684:7:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 1779,
+                "mutability": "mutable",
+                "name": "totalEarned",
+                "nameLocation": "1777:11:2",
+                "nodeType": "VariableDeclaration",
+                "scope": 1780,
+                "src": "1769:19:2",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 1778,
+                  "name": "uint256",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "1769:7:2",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "Round",
+            "nameLocation": "1290:5:2",
+            "nodeType": "StructDefinition",
+            "scope": 1962,
+            "src": "1283:584:2",
+            "visibility": "public"
+          },
+          {
+            "constant": false,
+            "id": 1782,
+            "mutability": "mutable",
+            "name": "allowedContractAddress",
+            "nameLocation": "1880:22:2",
+            "nodeType": "VariableDeclaration",
+            "scope": 1962,
+            "src": "1872:30:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 1781,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "1872:7:2",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 1784,
+            "mutability": "mutable",
+            "name": "owner",
+            "nameLocation": "1916:5:2",
+            "nodeType": "VariableDeclaration",
+            "scope": 1962,
+            "src": "1908:13:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 1783,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "1908:7:2",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "functionSelector": "8c65c81f",
+            "id": 1789,
+            "mutability": "mutable",
+            "name": "rounds",
+            "nameLocation": "1961:6:2",
+            "nodeType": "VariableDeclaration",
+            "scope": 1962,
+            "src": "1928:39:2",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Round_$1780_storage_$",
+              "typeString": "mapping(uint256 => struct Rounds.Round)"
+            },
+            "typeName": {
+              "id": 1788,
+              "keyType": {
+                "id": 1785,
+                "name": "uint256",
+                "nodeType": "ElementaryTypeName",
+                "src": "1937:7:2",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                }
+              },
+              "nodeType": "Mapping",
+              "src": "1928:25:2",
+              "typeDescriptions": {
+                "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Round_$1780_storage_$",
+                "typeString": "mapping(uint256 => struct Rounds.Round)"
+              },
+              "valueType": {
+                "id": 1787,
+                "nodeType": "UserDefinedTypeName",
+                "pathNode": {
+                  "id": 1786,
+                  "name": "Round",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 1780,
+                  "src": "1947:5:2"
+                },
+                "referencedDeclaration": 1780,
+                "src": "1947:5:2",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_struct$_Round_$1780_storage_ptr",
+                  "typeString": "struct Rounds.Round"
+                }
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1804,
+              "nodeType": "Block",
+              "src": "2034:89:2",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 1798,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 1796,
+                      "name": "allowedContractAddress",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1782,
+                      "src": "2044:22:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 1797,
+                      "name": "_allowedContractAddress",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1791,
+                      "src": "2069:23:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "src": "2044:48:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 1799,
+                  "nodeType": "ExpressionStatement",
+                  "src": "2044:48:2"
+                },
+                {
+                  "expression": {
+                    "id": 1802,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 1800,
+                      "name": "owner",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1784,
+                      "src": "2102:5:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "id": 1801,
+                      "name": "_owner",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1793,
+                      "src": "2110:6:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_address",
+                        "typeString": "address"
+                      }
+                    },
+                    "src": "2102:14:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "id": 1803,
+                  "nodeType": "ExpressionStatement",
+                  "src": "2102:14:2"
+                }
+              ]
+            },
+            "id": 1805,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1794,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1791,
+                  "mutability": "mutable",
+                  "name": "_allowedContractAddress",
+                  "nameLocation": "1994:23:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1805,
+                  "src": "1986:31:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1790,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "1986:7:2",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1793,
+                  "mutability": "mutable",
+                  "name": "_owner",
+                  "nameLocation": "2027:6:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1805,
+                  "src": "2019:14:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 1792,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2019:7:2",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "1985:49:2"
+            },
+            "returnParameters": {
+              "id": 1795,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2034:0:2"
+            },
+            "scope": 1962,
+            "src": "1974:149:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1821,
+              "nodeType": "Block",
+              "src": "2161:126:2",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "commonType": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        "id": 1816,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "leftExpression": {
+                          "commonType": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          },
+                          "id": 1811,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftExpression": {
+                            "expression": {
+                              "id": 1808,
+                              "name": "msg",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 4294967281,
+                              "src": "2175:3:2",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_magic_message",
+                                "typeString": "msg"
+                              }
+                            },
+                            "id": 1809,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "sender",
+                            "nodeType": "MemberAccess",
+                            "src": "2175:10:2",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          },
+                          "nodeType": "BinaryOperation",
+                          "operator": "==",
+                          "rightExpression": {
+                            "id": 1810,
+                            "name": "allowedContractAddress",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 1782,
+                            "src": "2189:22:2",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          },
+                          "src": "2175:36:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          }
+                        },
+                        "nodeType": "BinaryOperation",
+                        "operator": "||",
+                        "rightExpression": {
+                          "commonType": {
+                            "typeIdentifier": "t_address",
+                            "typeString": "address"
+                          },
+                          "id": 1815,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftExpression": {
+                            "expression": {
+                              "id": 1812,
+                              "name": "msg",
+                              "nodeType": "Identifier",
+                              "overloadedDeclarations": [],
+                              "referencedDeclaration": 4294967281,
+                              "src": "2215:3:2",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_magic_message",
+                                "typeString": "msg"
+                              }
+                            },
+                            "id": 1813,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "lValueRequested": false,
+                            "memberName": "sender",
+                            "nodeType": "MemberAccess",
+                            "src": "2215:10:2",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          },
+                          "nodeType": "BinaryOperation",
+                          "operator": "==",
+                          "rightExpression": {
+                            "id": 1814,
+                            "name": "owner",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 1784,
+                            "src": "2229:5:2",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_address",
+                              "typeString": "address"
+                            }
+                          },
+                          "src": "2215:19:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          }
+                        },
+                        "src": "2175:59:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        }
+                      },
+                      {
+                        "hexValue": "43616c6c6572206973206e6f742074686520616c6c6f77656420636f6e7472616374",
+                        "id": 1817,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "2236:36:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_c52701d29ece3094ce0adc7d72ffef4710e60f59a7590fe7929866609cb7adc9",
+                          "typeString": "literal_string \"Caller is not the allowed contract\""
+                        },
+                        "value": "Caller is not the allowed contract"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_bool",
+                          "typeString": "bool"
+                        },
+                        {
+                          "typeIdentifier": "t_stringliteral_c52701d29ece3094ce0adc7d72ffef4710e60f59a7590fe7929866609cb7adc9",
+                          "typeString": "literal_string \"Caller is not the allowed contract\""
+                        }
+                      ],
+                      "id": 1807,
+                      "name": "require",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [
+                        4294967278,
+                        4294967278
+                      ],
+                      "referencedDeclaration": 4294967278,
+                      "src": "2167:7:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_require_pure$_t_bool_$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (bool,string memory) pure"
+                      }
+                    },
+                    "id": 1818,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "2167:106:2",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 1819,
+                  "nodeType": "ExpressionStatement",
+                  "src": "2167:106:2"
+                },
+                {
+                  "id": 1820,
+                  "nodeType": "PlaceholderStatement",
+                  "src": "2279:1:2"
+                }
+              ]
+            },
+            "id": 1822,
+            "name": "onlyAllowedContract",
+            "nameLocation": "2139:19:2",
+            "nodeType": "ModifierDefinition",
+            "parameters": {
+              "id": 1806,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2158:2:2"
+            },
+            "src": "2130:157:2",
+            "virtual": false,
+            "visibility": "internal"
+          },
+          {
+            "body": {
+              "id": 1841,
+              "nodeType": "Block",
+              "src": "2384:79:2",
+              "statements": [
+                {
+                  "assignments": [
+                    1834
+                  ],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 1834,
+                      "mutability": "mutable",
+                      "name": "round",
+                      "nameLocation": "2407:5:2",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 1841,
+                      "src": "2394:18:2",
+                      "stateVariable": false,
+                      "storageLocation": "memory",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_struct$_Round_$1780_memory_ptr",
+                        "typeString": "struct Rounds.Round"
+                      },
+                      "typeName": {
+                        "id": 1833,
+                        "nodeType": "UserDefinedTypeName",
+                        "pathNode": {
+                          "id": 1832,
+                          "name": "Round",
+                          "nodeType": "IdentifierPath",
+                          "referencedDeclaration": 1780,
+                          "src": "2394:5:2"
+                        },
+                        "referencedDeclaration": 1780,
+                        "src": "2394:5:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Round_$1780_storage_ptr",
+                          "typeString": "struct Rounds.Round"
+                        }
+                      },
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 1838,
+                  "initialValue": {
+                    "baseExpression": {
+                      "id": 1835,
+                      "name": "rounds",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1789,
+                      "src": "2415:6:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Round_$1780_storage_$",
+                        "typeString": "mapping(uint256 => struct Rounds.Round storage ref)"
+                      }
+                    },
+                    "id": 1837,
+                    "indexExpression": {
+                      "id": 1836,
+                      "name": "roundNumber",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1824,
+                      "src": "2422:11:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "isConstant": false,
+                    "isLValue": true,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "IndexAccess",
+                    "src": "2415:19:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Round_$1780_storage",
+                      "typeString": "struct Rounds.Round storage ref"
+                    }
+                  },
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "2394:40:2"
+                },
+                {
+                  "expression": {
+                    "id": 1839,
+                    "name": "round",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 1834,
+                    "src": "2451:5:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Round_$1780_memory_ptr",
+                      "typeString": "struct Rounds.Round memory"
+                    }
+                  },
+                  "functionReturnParameters": 1831,
+                  "id": 1840,
+                  "nodeType": "Return",
+                  "src": "2444:12:2"
+                }
+              ]
+            },
+            "functionSelector": "8f1327c0",
+            "id": 1842,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "id": 1827,
+                "kind": "modifierInvocation",
+                "modifierName": {
+                  "id": 1826,
+                  "name": "onlyAllowedContract",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 1822,
+                  "src": "2343:19:2"
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "2343:19:2"
+              }
+            ],
+            "name": "getRound",
+            "nameLocation": "2301:8:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1825,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1824,
+                  "mutability": "mutable",
+                  "name": "roundNumber",
+                  "nameLocation": "2318:11:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1842,
+                  "src": "2310:19:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1823,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2310:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2309:21:2"
+            },
+            "returnParameters": {
+              "id": 1831,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1830,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1842,
+                  "src": "2371:12:2",
+                  "stateVariable": false,
+                  "storageLocation": "memory",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_struct$_Round_$1780_memory_ptr",
+                    "typeString": "struct Rounds.Round"
+                  },
+                  "typeName": {
+                    "id": 1829,
+                    "nodeType": "UserDefinedTypeName",
+                    "pathNode": {
+                      "id": 1828,
+                      "name": "Round",
+                      "nodeType": "IdentifierPath",
+                      "referencedDeclaration": 1780,
+                      "src": "2371:5:2"
+                    },
+                    "referencedDeclaration": 1780,
+                    "src": "2371:5:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_struct$_Round_$1780_storage_ptr",
+                      "typeString": "struct Rounds.Round"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2370:14:2"
+            },
+            "scope": 1962,
+            "src": "2292:171:2",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1858,
+              "nodeType": "Block",
+              "src": "2559:57:2",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 1856,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "expression": {
+                        "baseExpression": {
+                          "id": 1851,
+                          "name": "rounds",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1789,
+                          "src": "2569:6:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Round_$1780_storage_$",
+                            "typeString": "mapping(uint256 => struct Rounds.Round storage ref)"
+                          }
+                        },
+                        "id": 1853,
+                        "indexExpression": {
+                          "id": 1852,
+                          "name": "roundNumber",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1844,
+                          "src": "2576:11:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "2569:19:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Round_$1780_storage",
+                          "typeString": "struct Rounds.Round storage ref"
+                        }
+                      },
+                      "id": 1854,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "totalPot",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 1767,
+                      "src": "2569:28:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "id": 1855,
+                      "name": "roundPot",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1846,
+                      "src": "2601:8:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "2569:40:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 1857,
+                  "nodeType": "ExpressionStatement",
+                  "src": "2569:40:2"
+                }
+              ]
+            },
+            "functionSelector": "a4ce300d",
+            "id": 1859,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "id": 1849,
+                "kind": "modifierInvocation",
+                "modifierName": {
+                  "id": 1848,
+                  "name": "onlyAllowedContract",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 1822,
+                  "src": "2532:19:2"
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "2532:19:2"
+              }
+            ],
+            "name": "updateRoundPot",
+            "nameLocation": "2478:14:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1847,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1844,
+                  "mutability": "mutable",
+                  "name": "roundNumber",
+                  "nameLocation": "2501:11:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1859,
+                  "src": "2493:19:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1843,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2493:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1846,
+                  "mutability": "mutable",
+                  "name": "roundPot",
+                  "nameLocation": "2522:8:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1859,
+                  "src": "2514:16:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1845,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2514:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2492:39:2"
+            },
+            "returnParameters": {
+              "id": 1850,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2559:0:2"
+            },
+            "scope": 1962,
+            "src": "2469:147:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1875,
+              "nodeType": "Block",
+              "src": "2719:65:2",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 1873,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "expression": {
+                        "baseExpression": {
+                          "id": 1868,
+                          "name": "rounds",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1789,
+                          "src": "2729:6:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Round_$1780_storage_$",
+                            "typeString": "mapping(uint256 => struct Rounds.Round storage ref)"
+                          }
+                        },
+                        "id": 1870,
+                        "indexExpression": {
+                          "id": 1869,
+                          "name": "roundNumber",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1861,
+                          "src": "2736:11:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "2729:19:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Round_$1780_storage",
+                          "typeString": "struct Rounds.Round storage ref"
+                        }
+                      },
+                      "id": 1871,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "totalSidePot",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 1769,
+                      "src": "2729:32:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "id": 1872,
+                      "name": "roundSidePot",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1863,
+                      "src": "2765:12:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "2729:48:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 1874,
+                  "nodeType": "ExpressionStatement",
+                  "src": "2729:48:2"
+                }
+              ]
+            },
+            "functionSelector": "46131709",
+            "id": 1876,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "id": 1866,
+                "kind": "modifierInvocation",
+                "modifierName": {
+                  "id": 1865,
+                  "name": "onlyAllowedContract",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 1822,
+                  "src": "2692:19:2"
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "2692:19:2"
+              }
+            ],
+            "name": "updateRoundSidePot",
+            "nameLocation": "2630:18:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1864,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1861,
+                  "mutability": "mutable",
+                  "name": "roundNumber",
+                  "nameLocation": "2657:11:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1876,
+                  "src": "2649:19:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1860,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2649:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1863,
+                  "mutability": "mutable",
+                  "name": "roundSidePot",
+                  "nameLocation": "2678:12:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1876,
+                  "src": "2670:20:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1862,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2670:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2648:43:2"
+            },
+            "returnParameters": {
+              "id": 1867,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2719:0:2"
+            },
+            "scope": 1962,
+            "src": "2621:163:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1892,
+              "nodeType": "Block",
+              "src": "2881:59:2",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 1890,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "expression": {
+                        "baseExpression": {
+                          "id": 1885,
+                          "name": "rounds",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1789,
+                          "src": "2891:6:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Round_$1780_storage_$",
+                            "typeString": "mapping(uint256 => struct Rounds.Round storage ref)"
+                          }
+                        },
+                        "id": 1887,
+                        "indexExpression": {
+                          "id": 1886,
+                          "name": "roundNumber",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1878,
+                          "src": "2898:11:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "2891:19:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Round_$1780_storage",
+                          "typeString": "struct Rounds.Round storage ref"
+                        }
+                      },
+                      "id": 1888,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "totalPlayers",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 1771,
+                      "src": "2891:32:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "id": 1889,
+                      "name": "player",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1880,
+                      "src": "2927:6:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "2891:42:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 1891,
+                  "nodeType": "ExpressionStatement",
+                  "src": "2891:42:2"
+                }
+              ]
+            },
+            "functionSelector": "0aeecea2",
+            "id": 1893,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "id": 1883,
+                "kind": "modifierInvocation",
+                "modifierName": {
+                  "id": 1882,
+                  "name": "onlyAllowedContract",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 1822,
+                  "src": "2854:19:2"
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "2854:19:2"
+              }
+            ],
+            "name": "updateTotalPlayers",
+            "nameLocation": "2798:18:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1881,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1878,
+                  "mutability": "mutable",
+                  "name": "roundNumber",
+                  "nameLocation": "2825:11:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1893,
+                  "src": "2817:19:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1877,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2817:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1880,
+                  "mutability": "mutable",
+                  "name": "player",
+                  "nameLocation": "2846:6:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1893,
+                  "src": "2838:14:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1879,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2838:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2816:37:2"
+            },
+            "returnParameters": {
+              "id": 1884,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "2881:0:2"
+            },
+            "scope": 1962,
+            "src": "2789:151:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1909,
+              "nodeType": "Block",
+              "src": "3038:60:2",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 1907,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "expression": {
+                        "baseExpression": {
+                          "id": 1902,
+                          "name": "rounds",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1789,
+                          "src": "3048:6:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Round_$1780_storage_$",
+                            "typeString": "mapping(uint256 => struct Rounds.Round storage ref)"
+                          }
+                        },
+                        "id": 1904,
+                        "indexExpression": {
+                          "id": 1903,
+                          "name": "roundNumber",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1895,
+                          "src": "3055:11:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "3048:19:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Round_$1780_storage",
+                          "typeString": "struct Rounds.Round storage ref"
+                        }
+                      },
+                      "id": 1905,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "totalKeys",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 1773,
+                      "src": "3048:29:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "id": 1906,
+                      "name": "playerKeys",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1897,
+                      "src": "3081:10:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "3048:43:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 1908,
+                  "nodeType": "ExpressionStatement",
+                  "src": "3048:43:2"
+                }
+              ]
+            },
+            "functionSelector": "42587134",
+            "id": 1910,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "id": 1900,
+                "kind": "modifierInvocation",
+                "modifierName": {
+                  "id": 1899,
+                  "name": "onlyAllowedContract",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 1822,
+                  "src": "3011:19:2"
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "3011:19:2"
+              }
+            ],
+            "name": "updateTotalKeys",
+            "nameLocation": "2954:15:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1898,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1895,
+                  "mutability": "mutable",
+                  "name": "roundNumber",
+                  "nameLocation": "2978:11:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1910,
+                  "src": "2970:19:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1894,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2970:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1897,
+                  "mutability": "mutable",
+                  "name": "playerKeys",
+                  "nameLocation": "2999:10:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1910,
+                  "src": "2991:18:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1896,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "2991:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "2969:41:2"
+            },
+            "returnParameters": {
+              "id": 1901,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3038:0:2"
+            },
+            "scope": 1962,
+            "src": "2945:153:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1926,
+              "nodeType": "Block",
+              "src": "3201:70:2",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 1924,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "expression": {
+                        "baseExpression": {
+                          "id": 1919,
+                          "name": "rounds",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1789,
+                          "src": "3211:6:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Round_$1780_storage_$",
+                            "typeString": "mapping(uint256 => struct Rounds.Round storage ref)"
+                          }
+                        },
+                        "id": 1921,
+                        "indexExpression": {
+                          "id": 1920,
+                          "name": "roundNumber",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1912,
+                          "src": "3218:11:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "3211:19:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Round_$1780_storage",
+                          "typeString": "struct Rounds.Round storage ref"
+                        }
+                      },
+                      "id": 1922,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "totalNextRoundPot",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 1775,
+                      "src": "3211:37:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "id": 1923,
+                      "name": "nextRoundPot",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1914,
+                      "src": "3252:12:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "3211:53:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 1925,
+                  "nodeType": "ExpressionStatement",
+                  "src": "3211:53:2"
+                }
+              ]
+            },
+            "functionSelector": "8dc6256c",
+            "id": 1927,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "id": 1917,
+                "kind": "modifierInvocation",
+                "modifierName": {
+                  "id": 1916,
+                  "name": "onlyAllowedContract",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 1822,
+                  "src": "3174:19:2"
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "3174:19:2"
+              }
+            ],
+            "name": "updateNextRoundPot",
+            "nameLocation": "3112:18:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1915,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1912,
+                  "mutability": "mutable",
+                  "name": "roundNumber",
+                  "nameLocation": "3139:11:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1927,
+                  "src": "3131:19:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1911,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3131:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1914,
+                  "mutability": "mutable",
+                  "name": "nextRoundPot",
+                  "nameLocation": "3160:12:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1927,
+                  "src": "3152:20:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1913,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3152:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3130:43:2"
+            },
+            "returnParameters": {
+              "id": 1918,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3201:0:2"
+            },
+            "scope": 1962,
+            "src": "3103:168:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1943,
+              "nodeType": "Block",
+              "src": "3374:65:2",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 1941,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "expression": {
+                        "baseExpression": {
+                          "id": 1936,
+                          "name": "rounds",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1789,
+                          "src": "3384:6:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Round_$1780_storage_$",
+                            "typeString": "mapping(uint256 => struct Rounds.Round storage ref)"
+                          }
+                        },
+                        "id": 1938,
+                        "indexExpression": {
+                          "id": 1937,
+                          "name": "roundNumber",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1929,
+                          "src": "3391:11:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "3384:19:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Round_$1780_storage",
+                          "typeString": "struct Rounds.Round storage ref"
+                        }
+                      },
+                      "id": 1939,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "totalDividendPot",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 1777,
+                      "src": "3384:36:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "id": 1940,
+                      "name": "diviePot",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1931,
+                      "src": "3424:8:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "3384:48:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 1942,
+                  "nodeType": "ExpressionStatement",
+                  "src": "3384:48:2"
+                }
+              ]
+            },
+            "functionSelector": "c4ec6f3c",
+            "id": 1944,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "id": 1934,
+                "kind": "modifierInvocation",
+                "modifierName": {
+                  "id": 1933,
+                  "name": "onlyAllowedContract",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 1822,
+                  "src": "3347:19:2"
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "3347:19:2"
+              }
+            ],
+            "name": "updateTotalDividendPot",
+            "nameLocation": "3285:22:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1932,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1929,
+                  "mutability": "mutable",
+                  "name": "roundNumber",
+                  "nameLocation": "3316:11:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1944,
+                  "src": "3308:19:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1928,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3308:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1931,
+                  "mutability": "mutable",
+                  "name": "diviePot",
+                  "nameLocation": "3337:8:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1944,
+                  "src": "3329:16:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1930,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3329:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3307:39:2"
+            },
+            "returnParameters": {
+              "id": 1935,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3374:0:2"
+            },
+            "scope": 1962,
+            "src": "3276:163:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 1960,
+              "nodeType": "Block",
+              "src": "3544:67:2",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 1958,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "expression": {
+                        "baseExpression": {
+                          "id": 1953,
+                          "name": "rounds",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1789,
+                          "src": "3554:6:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_mapping$_t_uint256_$_t_struct$_Round_$1780_storage_$",
+                            "typeString": "mapping(uint256 => struct Rounds.Round storage ref)"
+                          }
+                        },
+                        "id": 1955,
+                        "indexExpression": {
+                          "id": 1954,
+                          "name": "roundNumber",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": 1946,
+                          "src": "3561:11:2",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        },
+                        "isConstant": false,
+                        "isLValue": true,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "nodeType": "IndexAccess",
+                        "src": "3554:19:2",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_struct$_Round_$1780_storage",
+                          "typeString": "struct Rounds.Round storage ref"
+                        }
+                      },
+                      "id": 1956,
+                      "isConstant": false,
+                      "isLValue": true,
+                      "isPure": false,
+                      "lValueRequested": true,
+                      "memberName": "totalEarned",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 1779,
+                      "src": "3554:31:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "id": 1957,
+                      "name": "totalDivsEarned",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 1948,
+                      "src": "3589:15:2",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "src": "3554:50:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 1959,
+                  "nodeType": "ExpressionStatement",
+                  "src": "3554:50:2"
+                }
+              ]
+            },
+            "functionSelector": "6af82dee",
+            "id": 1961,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [
+              {
+                "id": 1951,
+                "kind": "modifierInvocation",
+                "modifierName": {
+                  "id": 1950,
+                  "name": "onlyAllowedContract",
+                  "nodeType": "IdentifierPath",
+                  "referencedDeclaration": 1822,
+                  "src": "3517:19:2"
+                },
+                "nodeType": "ModifierInvocation",
+                "src": "3517:19:2"
+              }
+            ],
+            "name": "updateTotalEarned",
+            "nameLocation": "3453:17:2",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 1949,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 1946,
+                  "mutability": "mutable",
+                  "name": "roundNumber",
+                  "nameLocation": "3479:11:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1961,
+                  "src": "3471:19:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1945,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3471:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 1948,
+                  "mutability": "mutable",
+                  "name": "totalDivsEarned",
+                  "nameLocation": "3500:15:2",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 1961,
+                  "src": "3492:23:2",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 1947,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "3492:7:2",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "3470:46:2"
+            },
+            "returnParameters": {
+              "id": 1952,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "3544:0:2"
+            },
+            "scope": 1962,
+            "src": "3444:167:2",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 1963,
+        "src": "1261:2353:2",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:3583:2"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.13+commit.abaa5c0e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.14",
+  "updatedAt": "2023-08-01T11:12:47.123Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
